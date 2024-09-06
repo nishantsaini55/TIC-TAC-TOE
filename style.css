@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_message {
+    margin: 30px;
+    padding: 15px;
+    width: 600px;
+    font-size: 50px;
+    background-color: rgb(28, 60, 186);
+    color: white;
+    border-radius: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title_message:hover {
+    color: goldenrod;
+    font-size: 49px;
+
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 30px;
+    margin-bottom: 30px;
+    border: 3px black;
+
+
+}
+
+.button_div {
+    display: flex;
+}
+
+/* style for tic tac toe boxes*/
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: rgb(27, 145, 90);
+    border-color: 20px rgb(27, 177, 115);
+    font-size: 50px;
+    color: rgb(229, 209, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.box:hover {
+    background-color: rgb(71, 210, 92);
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reset {
+    height: 80px;
+    width: 341px;
+    border-radius: 10px;
+    background-color: rgb(28, 60, 186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+#reset:hover {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.hide {
+    display: none;
+}
+
+.wmsg {
+    text-align: center;
+    margin-left: 126px;
+    background-color: wheat;
+    border-radius: 10px;
+    border: 10px black;
+    width: 400px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #433e2a;
+    padding: 15px;
+    font-size: 20px;
+    border-color: 30px black;
+
+}
